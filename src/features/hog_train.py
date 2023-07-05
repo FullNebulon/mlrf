@@ -1,7 +1,7 @@
 import numpy as np
 
 from data.extract import load_cifar10_batch
-from hog_extract import extract_hog_features
+from features.hog_extract import extract_hog_features
 
 
 ### Load of training set
@@ -88,7 +88,7 @@ dump(model, 'models/sgd_hog.joblib')
 
 print("hog sgd saved")
 
-### Grid search for Random Forest
+## Grid search for Random Forest
 
 print("Executing grid search for random forest")
 

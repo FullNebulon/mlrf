@@ -9,7 +9,7 @@ from sklearn.metrics import roc_curve, auc
 from sklearn.preprocessing import label_binarize
 from itertools import cycle
 
-test_batch = unpickle("data/cifar-10-batches-py/test_batch")
+test_batch = unpickle("../data/cifar-10-batches-py/test_batch")
 images_test = test_batch[b'data']
 y_test = test_batch[b'labels']
 
