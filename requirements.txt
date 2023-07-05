@@ -1,0 +1,9 @@
+sklearn
+seaborn
+numpy
+matplotlib
+joblib
+skimage
+pickle
+opencv-python
+itertools
