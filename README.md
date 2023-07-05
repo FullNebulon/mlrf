@@ -6,6 +6,8 @@ Pour pouvoir éxécuter ce projet, vous devrai installer toutes les dépendances
 
 `pip install -r requirements.txt`
 
+Si vous voulez utiliser les modèles pré-entrainés, vous devrez décompresser les dossiers dans le répertoire: `src/models/`
+
 ## Utilisation
 
 Pour l'utilisation de toutes commandes liées aux modèles, veuillez vous placer dans le répertoire 'src':
